@@ -6,12 +6,11 @@ function suma(a, b) {
 function resta(a, b) {
     return a - b;
 }
-function multiplicacion(a, b) {
-    return a * b;
-}
-function division(a, b) {
-    return a / b;
-}
+
+let multiplicacion = (a, b) => a * b;
+
+const division = (a, b) => a / b;
+
 console.log(suma(a, b));
 console.log(resta(a, b));
 console.log(multiplicacion(a, b));
